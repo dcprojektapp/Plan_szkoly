@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 2000">
+  <defs>
+    <style>
+      .corridor { fill: #F5F5F5; stroke: #9E9E9E; stroke-width: 2; }
+      .room { fill: #E3F2FD; stroke: #64B5F6; stroke-width: 2; }
+      .special-room { fill: #FFF9C4; stroke: #FBC02D; stroke-width: 2; }
+      .wc { fill: #E1F5FE; stroke: #0288D1; stroke-width: 2; }
+      .stairs { fill: #FFE082; stroke: #FFA000; stroke-width: 2; }
+      .aula { fill: #D1C4E9; stroke: #7B1FA2; stroke-width: 2; }
+      .text-room { font-family: sans-serif; font-size: 20px; fill: #333; text-anchor: middle; dominant-baseline: middle; }
+      .text-label { font-family: sans-serif; font-size: 14px; fill: #555; text-anchor: middle; dominant-baseline: middle; }
+      .text-large { font-family: sans-serif; font-size: 24px; font-weight: bold; fill: #222; text-anchor: middle; dominant-baseline: middle; }
+    </style>
+  </defs>
+
+  <!-- ====== CORRIDOR (LINEAR) ====== -->
+  <!-- x: 100 to 1100, y: 1450 -->
+  <rect x="100" y="1450" width="1000" height="80" class="corridor" />
+
+  <!-- ====== LEFT END ====== -->
+  <!-- Main Stairs (Connects to floor 0) -->
+  <rect x="50" y="1450" width="50" height="80" class="stairs" />
+  <text x="75" y="1490" class="text-label" transform="rotate(-90 75 1490)">Schody</text>
+
+  <!-- ====== TOP ROW (Above Corridor, y: 1350) ====== -->
+  
+  <!-- Sekretariat -->
+  <rect x="150" y="1370" width="60" height="80" class="special-room" />
+  <text x="180" y="1410" class="text-label">Sekr.</text>
+  
+  <!-- Dyrektor -->
+  <rect x="210" y="1370" width="60" height="80" class="special-room" />
+  <text x="240" y="1410" class="text-label">Dyr.</text>
+
+  <!-- WC -->
+  <rect x="270" y="1400" width="40" height="50" class="wc" />
+  <text x="290" y="1425" class="text-label">WC</text>
+
+  <!-- Sala 14 -->
+  <rect x="320" y="1350" width="80" height="100" class="room" />
+  <text x="360" y="1390" class="text-room">14</text>
+  <text x="360" y="1410" class="text-label">Geogr.</text>
+
+  <!-- Sala 13 -->
+  <rect x="400" y="1350" width="80" height="100" class="room" />
+  <text x="440" y="1390" class="text-room">13</text>
+  <text x="440" y="1410" class="text-label">Hist.</text>
+
+  <!-- Sala 12 -->
+  <rect x="480" y="1350" width="80" height="100" class="room" />
+  <text x="520" y="1390" class="text-room">12</text>
+  <text x="520" y="1410" class="text-label">Religia</text>
+
+  <!-- K5 -->
+  <rect x="560" y="1350" width="80" height="100" class="room" />
+  <text x="600" y="1390" class="text-room">K5</text>
+  <text x="600" y="1410" class="text-label">Info.</text>
+
+  <!-- Sala 11 -->
+  <rect x="640" y="1350" width="80" height="100" class="room" />
+  <text x="680" y="1390" class="text-room">11</text>
+  <text x="680" y="1410" class="text-label">Polski</text>
+
+  <!-- Aula / Sala 10 -->
+  <rect x="750" y="1300" width="150" height="150" class="aula" />
+  <text x="825" y="1375" class="text-large">AULA</text>
+  <text x="825" y="1400" class="text-room">(10)</text>
+
+
+  <!-- ====== BOTTOM ROW (Below Corridor, y: 1530) ====== -->
+  
+  <!-- B6 -->
+  <rect x="350" y="1530" width="80" height="100" class="room" />
+  <text x="390" y="1580" class="text-room">B6</text>
+
+  <!-- WC Cluster -->
+  <rect x="440" y="1530" width="40" height="50" class="wc" />
+  <text x="460" y="1555" class="text-label">WC</text>
+
+  <!-- Middle Stairs -->
+  <rect x="480" y="1530" width="50" height="60" class="stairs" />
+  <text x="505" y="1560" class="text-label">Schody</text>
+
+  <!-- B4 -->
+  <rect x="540" y="1530" width="80" height="100" class="room" />
+  <text x="580" y="1580" class="text-room">B4</text>
+
+  <!-- B5 -->
+  <rect x="620" y="1530" width="80" height="100" class="room" />
+  <text x="660" y="1580" class="text-room">B5</text>
+
+  <!-- Wicedyrektor -->
+  <rect x="720" y="1530" width="80" height="80" class="special-room" />
+  <text x="760" y="1570" class="text-label">Wice</text>
+
+  <!-- Pokój Nauczycielski -->
+  <rect x="800" y="1530" width="100" height="100" class="special-room" />
+  <text x="850" y="1570" class="text-label">Pokój</text>
+  <text x="850" y="1590" class="text-label">Naucz.</text>
+
+</svg>

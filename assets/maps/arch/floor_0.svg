@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1500 2000"
+   version="1.1"
+   id="svg35"
+   sodipodi:docname="floor_0.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview35"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.57063517"
+     inkscape:cx="704.47813"
+     inkscape:cy="1024.2972"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg35" />
+  <defs
+     id="defs1">
+    <style
+       id="style1">
+      .corridor { fill: #F5F5F5; stroke: #9E9E9E; stroke-width: 2; }
+      .room { fill: #E3F2FD; stroke: #64B5F6; stroke-width: 2; }
+      .special-room { fill: #FFF9C4; stroke: #FBC02D; stroke-width: 2; }
+      .wc { fill: #E1F5FE; stroke: #0288D1; stroke-width: 2; }
+      .stairs { fill: #FFE082; stroke: #FFA000; stroke-width: 2; }
+      .gym { fill: #C8E6C9; stroke: #388E3C; stroke-width: 2; }
+      .kitchen { fill: #FFCCBC; stroke: #FF5722; stroke-width: 2; }
+      .text-room { font-family: sans-serif; font-size: 20px; fill: #333; text-anchor: middle; dominant-baseline: middle; }
+      .text-label { font-family: sans-serif; font-size: 14px; fill: #555; text-anchor: middle; dominant-baseline: middle; }
+      .text-large { font-family: sans-serif; font-size: 24px; font-weight: bold; fill: #222; text-anchor: middle; dominant-baseline: middle; }
+    </style>
+  </defs>
+  <!-- ====== CORRIDORS (L-SHAPE) ====== -->
+  <!-- Horizontal Corridor (Bottom) -->
+  <!-- x: 100 to 1000, y: 1450 -->
+  <rect
+     x="100"
+     y="1450"
+     width="900"
+     height="80"
+     class="corridor"
+     id="rect1" />
+  <!-- Vertical Corridor (Right Leg) -->
+  <!-- x: 920 to 1000, y: 200 to 1450 -->
+  <rect
+     x="920"
+     y="200"
+     width="80"
+     height="1250"
+     class="corridor"
+     id="rect2" />
+  <!-- Top Corridor (Gastro) -->
+  <rect
+     x="650"
+     y="150"
+     width="350"
+     height="80"
+     class="corridor"
+     id="rect3" />
+  <rect
+     x="649.89722"
+     y="502.93188"
+     width="350"
+     height="80"
+     class="corridor"
+     id="rect3-9"
+     style="fill:#f5f5f5;stroke:#9e9e9e;stroke-width:2" />
+  <!-- ====== GYM SECTION (Bottom Left) ====== -->
+  <rect
+     x="50"
+     y="1550"
+     width="300"
+     height="200"
+     class="gym"
+     id="rect4" />
+  <text
+     x="200"
+     y="1650"
+     class="text-large"
+     id="text4">Sala Gimnastyczna</text>
+  <!-- ====== HORIZONTAL ARM (Bottom) ====== -->
+  <!-- TOP SIDE of Horizontal Corridor (y: 1350) -->
+  <!-- Psycholog -->
+  <rect
+     x="150"
+     y="1350"
+     width="80"
+     height="100"
+     class="special-room"
+     id="rect5" />
+  <text
+     x="190"
+     y="1390"
+     class="text-label"
+     id="text5">Psych</text>
+  <!-- Sala 1 -->
+  <rect
+     x="230"
+     y="1350"
+     width="80"
+     height="100"
+     class="room"
+     id="rect6" />
+  <text
+     x="270"
+     y="1400"
+     class="text-room"
+     id="text6">1</text>
+  <!-- Sala 2 -->
+  <rect
+     x="310"
+     y="1350"
+     width="80"
+     height="100"
+     class="room"
+     id="rect7" />
+  <text
+     x="350"
+     y="1400"
+     class="text-room"
+     id="text7">2</text>
+  <!-- Sala 3 -->
+  <rect
+     x="390"
+     y="1350"
+     width="80"
+     height="100"
+     class="room"
+     id="rect8" />
+  <text
+     x="430"
+     y="1400"
+     class="text-room"
+     id="text8">3</text>
+  <!-- Sala 4a -->
+  <rect
+     x="470"
+     y="1350"
+     width="80"
+     height="100"
+     class="room"
+     id="rect9" />
+  <text
+     x="510"
+     y="1400"
+     class="text-room"
+     id="text9">4a</text>
+  <!-- Sala 4b -->
+  <rect
+     x="550"
+     y="1350"
+     width="80"
+     height="100"
+     class="room"
+     id="rect10" />
+  <text
+     x="590"
+     y="1400"
+     class="text-room"
+     id="text10">4b</text>
+  <!-- Sala 6 -->
+  <rect
+     x="630"
+     y="1350"
+     width="100"
+     height="100"
+     class="room"
+     id="rect11" />
+  <text
+     x="680"
+     y="1400"
+     class="text-room"
+     id="text11">6</text>
+  <!-- Stairs (Main) -->
+  <rect
+     x="70"
+     y="1350"
+     width="80"
+     height="100"
+     class="stairs"
+     id="rect12" />
+  <text
+     x="110"
+     y="1400"
+     class="text-label"
+     id="text12">Schody</text>
+  <!-- BOTTOM SIDE of Horizontal Corridor (y: 1530) -->
+  <!-- B3 -->
+  <rect
+     x="400"
+     y="1530"
+     width="80"
+     height="100"
+     class="room"
+     id="rect13" />
+  <text
+     x="440"
+     y="1580"
+     class="text-room"
+     id="text13">B3</text>
+  <!-- B1 -->
+  <rect
+     x="480"
+     y="1530"
+     width="80"
+     height="100"
+     class="room"
+     id="rect14" />
+  <text
+     x="520"
+     y="1580"
+     class="text-room"
+     id="text14">B1</text>
+  <!-- B2 -->
+  <rect
+     x="560"
+     y="1530"
+     width="80"
+     height="100"
+     class="room"
+     id="rect15" />
+  <text
+     x="600"
+     y="1580"
+     class="text-room"
+     id="text15">B2</text>
+  <!-- Sala 5 (Near intersection) -->
+  <rect
+     x="820"
+     y="1530"
+     width="100"
+     height="100"
+     class="room"
+     id="rect16" />
+  <text
+     x="870"
+     y="1580"
+     class="text-room"
+     id="text16">5</text>
+  <!-- ====== VERTICAL ARM (Right) ====== -->
+  <!-- LEFT SIDE of Vertical Corridor (x: 840) -->
+  <!-- Starting from bottom going up -->
+  <!-- Administracja -->
+  <rect
+     x="820"
+     y="1250"
+     width="100"
+     height="80"
+     class="special-room"
+     id="rect17" />
+  <text
+     x="870"
+     y="1290"
+     class="text-label"
+     id="text17">Admin</text>
+  <!-- K2 -->
+  <rect
+     x="820"
+     y="1150"
+     width="100"
+     height="80"
+     class="room"
+     id="rect18" />
+  <text
+     x="870"
+     y="1190"
+     class="text-room"
+     id="text18">K2</text>
+  <!-- Sekretariat K -->
+  <rect
+     x="820"
+     y="1050"
+     width="100"
+     height="80"
+     class="special-room"
+     id="rect19" />
+  <text
+     x="870"
+     y="1090"
+     class="text-label"
+     id="text19">Sekr.</text>
+  <!-- K1 -->
+  <rect
+     x="820"
+     y="950"
+     width="100"
+     height="80"
+     class="room"
+     id="rect20" />
+  <text
+     x="870"
+     y="990"
+     class="text-room"
+     id="text20">K1</text>
+  <!-- WC -->
+  <rect
+     x="840"
+     y="880"
+     width="80"
+     height="50"
+     class="wc"
+     id="rect21" />
+  <text
+     x="880"
+     y="905"
+     class="text-label"
+     id="text21">WC</text>
+  <!-- K3 -->
+  <rect
+     x="650.64038"
+     y="750.6264"
+     width="268.73318"
+     height="78.747154"
+     class="room"
+     id="rect22" />
+  <text
+     x="870"
+     y="790"
+     class="text-room"
+     id="text22">K3</text>
+  <!-- K4 -->
+  <rect
+     x="643.65118"
+     y="650.64697"
+     width="275.70187"
+     height="78.706108"
+     class="room"
+     id="rect23" />
+  <text
+     x="870"
+     y="690"
+     class="text-room"
+     id="text23">K4</text>
+  <!-- RIGHT SIDE of Vertical Corridor (x: 1000) -->
+  <!-- Centrum -->
+  <rect
+     x="1000"
+     y="1350"
+     width="100"
+     height="100"
+     class="special-room"
+     id="rect24" />
+  <text
+     x="1050"
+     y="1400"
+     class="text-label"
+     id="text24">Centrum</text>
+  <!-- Biblioteka -->
+  <rect
+     x="1000"
+     y="1250"
+     width="100"
+     height="100"
+     class="special-room"
+     id="rect25" />
+  <text
+     x="1050"
+     y="1300"
+     class="text-label"
+     id="text25">Biblioteka</text>
+  <!-- Pedagog -->
+  <rect
+     x="1000"
+     y="1150"
+     width="100"
+     height="100"
+     class="special-room"
+     id="rect26" />
+  <text
+     x="1050"
+     y="1200"
+     class="text-label"
+     id="text26">Pedagog</text>
+  <!-- Sala 7 -->
+  <rect
+     x="652.7467"
+     y="348.75516"
+     width="264.0145"
+     height="151.13554"
+     class="room"
+     id="rect27" />
+  <rect
+     x="1003.6908"
+     y="350.2236"
+     width="264.0145"
+     height="151.13554"
+     class="room"
+     id="rect27-8"
+     style="fill:#e3f2fd;stroke:#64b5f6;stroke-width:4.46665" />
+  <text
+     x="762.60095"
+     y="431.08514"
+     class="text-room"
+     id="text27">7</text>
+  <!-- Sala 8 -->
+  <rect
+     x="1000"
+     y="950"
+     width="100"
+     height="80"
+     class="room"
+     id="rect28" />
+  <text
+     x="1128.8595"
+     y="422.21167"
+     class="text-room"
+     id="text28">8</text>
+  <!-- Sala 9 -->
+  <rect
+     x="1000"
+     y="850"
+     width="100"
+     height="80"
+     class="room"
+     id="rect29" />
+  <text
+     x="1121.8497"
+     y="653.42151"
+     class="text-room"
+     id="text29">9</text>
+  <!-- ====== TOP SECTION (GASTROMONY) ====== -->
+  <!-- Rooms above Top Corridor (y: 50) -->
+  <!-- m1 -->
+  <rect
+     x="479.80582"
+     y="148.70296"
+     width="171.31775"
+     height="152.90387"
+     class="room"
+     id="rect30" />
+  <text
+     x="610.69391"
+     y="178.06691"
+     class="text-room"
+     id="text30">m1</text>
+  <!-- m2 -->
+  <rect
+     x="480.34668"
+     y="50.938988"
+     width="222.42934"
+     height="98.68708"
+     class="room"
+     id="rect31" />
+  <text
+     x="628.11017"
+     y="91.557808"
+     class="text-room"
+     id="text31"
+     transform="scale(0.92405591,1.0821856)"
+     style="stroke-width:1.08219">m2</text>
+  <!-- m3 -->
+  <rect
+     x="703.1817"
+     y="50.510082"
+     width="184.30821"
+     height="98.979836"
+     class="room"
+     id="rect32" />
+  <text
+     x="850"
+     y="100"
+     class="text-room"
+     id="text32">m3</text>
+  <!-- m4 -->
+  <rect
+     x="888.17389"
+     y="50.173916"
+     width="110.6311"
+     height="99.652168"
+     class="room"
+     id="rect33" />
+  <text
+     x="930"
+     y="100"
+     class="text-room"
+     id="text33">m4</text>
+  <!-- Kuchnia -->
+  <rect
+     x="999.31097"
+     y="49.092968"
+     width="178.64183"
+     height="99.335754"
+     class="kitchen"
+     id="rect34" />
+  <text
+     x="1020"
+     y="100"
+     class="text-label"
+     id="text34">Kuchnia</text>
+  <!-- Sala Gastro (Right of vertical corridor top) -->
+  <rect
+     x="1000.5361"
+     y="150.53609"
+     width="178.2339"
+     height="132.38509"
+     class="special-room"
+     id="rect35" />
+  <text
+     x="1050"
+     y="200"
+     class="text-label"
+     id="text35">Degustacyjna</text>
+  <rect
+     x="1001.4907"
+     y="583.72845"
+     width="264.0145"
+     height="151.13554"
+     class="room"
+     id="rect27-5"
+     style="fill:#e3f2fd;stroke:#64b5f6;stroke-width:4.46665" />
+</svg>

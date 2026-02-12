@@ -1,0 +1,1395 @@
+{
+    "version": "2.3",
+    "school_name": "Zespół Szkół nr 3",
+    "buildings": [
+        {
+            "id": "MAIN",
+            "name": "Budynek Główny",
+            "description": "Szkoła"
+        }
+    ],
+    "floors": [
+        {
+            "id": "FLOOR_0",
+            "building_id": "MAIN",
+            "level": 0,
+            "name": "Parter",
+            "svg_asset": "assets/maps/floor_0.svg",
+            "width": 1024,
+            "height": 1024
+        },
+        {
+            "id": "FLOOR_1",
+            "building_id": "MAIN",
+            "level": 1,
+            "name": "1. Piętro",
+            "svg_asset": "assets/maps/floor_1.svg",
+            "width": 1024,
+            "height": 1024
+        }
+    ],
+    "nodes": [
+        {
+            "id": "GYM",
+            "floor_id": "FLOOR_0",
+            "x": 324,
+            "y": 821,
+            "type": "ROOM",
+            "name": "Wejście Sala Gimnastyczna",
+            "qr_code": "QR_GYM"
+        },
+        {
+            "id": "PSYCHOLOG",
+            "floor_id": "FLOOR_0",
+            "x": 46,
+            "y": 779,
+            "type": "ROOM",
+            "name": "Wejście Psycholog",
+            "qr_code": "QR_PSYCHOLOG"
+        },
+        {
+            "id": "PIELEGNIARKA",
+            "floor_id": "FLOOR_0",
+            "x": 168,
+            "y": 794,
+            "type": "ROOM",
+            "name": "Pielęgniarka",
+            "qr_code": "QR_NURSE"
+        },
+        {
+            "id": "1",
+            "floor_id": "FLOOR_0",
+            "x": 340,
+            "y": 814,
+            "type": "ROOM",
+            "name": "Sala 1",
+            "qr_code": "QR_1"
+        },
+        {
+            "id": "2",
+            "floor_id": "FLOOR_0",
+            "x": 440,
+            "y": 816,
+            "type": "ROOM",
+            "name": "Sala 2",
+            "qr_code": "QR_2"
+        },
+        {
+            "id": "3",
+            "floor_id": "FLOOR_0",
+            "x": 534,
+            "y": 816,
+            "type": "ROOM",
+            "name": "Wejście Sala 3",
+            "qr_code": "QR_3"
+        },
+        {
+            "id": "4a",
+            "floor_id": "FLOOR_0",
+            "x": 581,
+            "y": 815,
+            "type": "ROOM",
+            "name": "Sala 4a",
+            "qr_code": "QR_4A"
+        },
+        {
+            "id": "4b",
+            "floor_id": "FLOOR_0",
+            "x": 632,
+            "y": 816,
+            "type": "ROOM",
+            "name": "Sala 4b",
+            "qr_code": "QR_4B"
+        },
+        {
+            "id": "6",
+            "floor_id": "FLOOR_0",
+            "x": 820,
+            "y": 753,
+            "type": "ROOM",
+            "name": "Sala 6",
+            "qr_code": "QR_6"
+        },
+        {
+            "id": "STAIR_B_DOWN",
+            "floor_id": "FLOOR_0",
+            "x": 25,
+            "y": 717,
+            "type": "STAIRS",
+            "name": "Schody B (Dół)",
+            "qr_code": "QR_STAIR_B_D"
+        },
+        {
+            "id": "STAIR_A_DOWN",
+            "floor_id": "FLOOR_0",
+            "x": 586,
+            "y": 853,
+            "type": "STAIRS",
+            "name": "Schody A (Dół)",
+            "qr_code": "QR_STAIR_A_D"
+        },
+        {
+            "id": "B3",
+            "floor_id": "FLOOR_0",
+            "x": 410,
+            "y": 966,
+            "type": "ROOM",
+            "name": "Sala B3",
+            "qr_code": "QR_B3"
+        },
+        {
+            "id": "B1",
+            "floor_id": "FLOOR_0",
+            "x": 438,
+            "y": 894,
+            "type": "ROOM",
+            "name": "Sala B1",
+            "qr_code": "QR_B1"
+        },
+        {
+            "id": "B2",
+            "floor_id": "FLOOR_0",
+            "x": 440,
+            "y": 945,
+            "type": "ROOM",
+            "name": "Wejście Sala B2",
+            "qr_code": "QR_B2"
+        },
+        {
+            "id": "5",
+            "floor_id": "FLOOR_0",
+            "x": 874,
+            "y": 892,
+            "type": "ROOM",
+            "name": "Sala 5",
+            "qr_code": "QR_5"
+        },
+        {
+            "id": "CENTRUM",
+            "floor_id": "FLOOR_0",
+            "x": 844,
+            "y": 901,
+            "type": "ROOM",
+            "name": "Centrum",
+            "qr_code": "QR_CENTRUM"
+        },
+        {
+            "id": "BIBLIOTEKA",
+            "floor_id": "FLOOR_0",
+            "x": 846,
+            "y": 976,
+            "type": "ROOM",
+            "name": "Wejście Biblioteka",
+            "qr_code": "QR_BIBLIOTEKA"
+        },
+        {
+            "id": "PEDAGOG",
+            "floor_id": "FLOOR_0",
+            "x": 902,
+            "y": 984,
+            "type": "ROOM",
+            "name": "Pedagog",
+            "qr_code": "QR_PEDAGOG"
+        },
+        {
+            "id": "SERVER",
+            "floor_id": "FLOOR_0",
+            "x": 1150,
+            "y": 1300,
+            "type": "ROOM",
+            "name": "Serwerownia",
+            "qr_code": "QR_SERVER"
+        },
+        {
+            "id": "ADMINISTRACJA",
+            "floor_id": "FLOOR_0",
+            "x": 870,
+            "y": 1290,
+            "type": "ROOM",
+            "name": "Administracja",
+            "qr_code": "QR_ADMIN"
+        },
+        {
+            "id": "K2",
+            "floor_id": "FLOOR_0",
+            "x": 762,
+            "y": 651,
+            "type": "ROOM",
+            "name": "K2",
+            "qr_code": "QR_K2"
+        },
+        {
+            "id": "SEKRETARIAT_K",
+            "floor_id": "FLOOR_0",
+            "x": 870,
+            "y": 1090,
+            "type": "ROOM",
+            "name": "Sekretariat",
+            "qr_code": "QR_SEK_K"
+        },
+        {
+            "id": "K1",
+            "floor_id": "FLOOR_0",
+            "x": 734,
+            "y": 672,
+            "type": "ROOM",
+            "name": "K1",
+            "qr_code": "QR_K1"
+        },
+        {
+            "id": "WC_K",
+            "floor_id": "FLOOR_0",
+            "x": 880,
+            "y": 905,
+            "type": "WC",
+            "name": "WC",
+            "qr_code": "QR_WC_K"
+        },
+        {
+            "id": "7",
+            "floor_id": "FLOOR_0",
+            "x": 721,
+            "y": 314,
+            "type": "ROOM",
+            "name": "Sala 7",
+            "qr_code": "QR_7"
+        },
+        {
+            "id": "8",
+            "floor_id": "FLOOR_0",
+            "x": 921,
+            "y": 310,
+            "type": "ROOM",
+            "name": "Sala 8",
+            "qr_code": "QR_8"
+        },
+        {
+            "id": "9",
+            "floor_id": "FLOOR_0",
+            "x": 918,
+            "y": 343,
+            "type": "ROOM",
+            "name": "Sala 9",
+            "qr_code": "QR_9"
+        },
+        {
+            "id": "K3",
+            "floor_id": "FLOOR_0",
+            "x": 794,
+            "y": 415,
+            "type": "ROOM",
+            "name": "K3",
+            "qr_code": "QR_K3"
+        },
+        {
+            "id": "K4",
+            "floor_id": "FLOOR_0",
+            "x": 794,
+            "y": 365,
+            "type": "ROOM",
+            "name": "K4",
+            "qr_code": "QR_K4"
+        },
+        {
+            "id": "SZATNIA_1",
+            "floor_id": "FLOOR_0",
+            "x": 816,
+            "y": 500,
+            "type": "ROOM",
+            "name": "Szatnia",
+            "qr_code": "QR_CLOAKROOM_1"
+        },
+        {
+            "id": "SZATNIA_2",
+            "floor_id": "FLOOR_0",
+            "x": 816,
+            "y": 416,
+            "type": "ROOM",
+            "name": "Szatnia",
+            "qr_code": "QR_CLOAKROOM_2"
+        },
+        {
+            "id": "m1",
+            "floor_id": "FLOOR_0",
+            "x": 686,
+            "y": 163,
+            "type": "ROOM",
+            "name": "m1",
+            "qr_code": "QR_M1"
+        },
+        {
+            "id": "m2",
+            "floor_id": "FLOOR_0",
+            "x": 643,
+            "y": 154,
+            "type": "ROOM",
+            "name": "m2",
+            "qr_code": "QR_M2"
+        },
+        {
+            "id": "m3",
+            "floor_id": "FLOOR_0",
+            "x": 762,
+            "y": 153,
+            "type": "ROOM",
+            "name": "m3",
+            "qr_code": "QR_M3"
+        },
+        {
+            "id": "m4",
+            "floor_id": "FLOOR_0",
+            "x": 843,
+            "y": 153,
+            "type": "ROOM",
+            "name": "Wejście m4",
+            "qr_code": "QR_M4"
+        },
+        {
+            "id": "KUCHNIA",
+            "floor_id": "FLOOR_0",
+            "x": 1020,
+            "y": 100,
+            "type": "ROOM",
+            "name": "Kuchnia",
+            "qr_code": "QR_KITCHEN"
+        },
+        {
+            "id": "DEG",
+            "floor_id": "FLOOR_0",
+            "x": 926,
+            "y": 139,
+            "type": "ROOM",
+            "name": "Deg.",
+            "qr_code": "QR_DEG"
+        },
+        {
+            "id": "SALA_GASTRO",
+            "floor_id": "FLOOR_0",
+            "x": 1050,
+            "y": 200,
+            "type": "ROOM",
+            "name": "Sala Gastronomiczna",
+            "qr_code": "QR_GASTRO"
+        },
+        {
+            "id": "PUNKT_1",
+            "floor_id": "FLOOR_0",
+            "x": 765,
+            "y": 187,
+            "type": "PATH_POINT",
+            "name": "Punkt 1"
+        },
+        {
+            "id": "PUNKT_2",
+            "floor_id": "FLOOR_0",
+            "x": 779,
+            "y": 219,
+            "type": "PATH_POINT",
+            "name": "Punkt 2"
+        },
+        {
+            "id": "PUNKT_3",
+            "floor_id": "FLOOR_0",
+            "x": 805,
+            "y": 219,
+            "type": "PATH_POINT",
+            "name": "Punkt 3"
+        },
+        {
+            "id": "PUNKT_4",
+            "floor_id": "FLOOR_0",
+            "x": 805,
+            "y": 325,
+            "type": "PATH_POINT",
+            "name": "Punkt 4"
+        },
+        {
+            "id": "PUNKT_5",
+            "floor_id": "FLOOR_0",
+            "x": 805,
+            "y": 451,
+            "type": "PATH_POINT",
+            "name": "Punkt 5"
+        },
+        {
+            "id": "PUNKT_6",
+            "floor_id": "FLOOR_0",
+            "x": 805,
+            "y": 544,
+            "type": "PATH_POINT",
+            "name": "Punkt 6"
+        },
+        {
+            "id": "PUNKT_7",
+            "floor_id": "FLOOR_0",
+            "x": 750,
+            "y": 649,
+            "type": "PATH_POINT",
+            "name": "Punkt 7"
+        },
+        {
+            "id": "PUNKT_8",
+            "floor_id": "FLOOR_0",
+            "x": 750,
+            "y": 753,
+            "type": "PATH_POINT",
+            "name": "Punkt 8"
+        },
+        {
+            "id": "PUNKT_9",
+            "floor_id": "FLOOR_0",
+            "x": 750,
+            "y": 828,
+            "type": "PATH_POINT",
+            "name": "Punkt 9"
+        },
+        {
+            "id": "PUNKT_10",
+            "floor_id": "FLOOR_0",
+            "x": 845,
+            "y": 845,
+            "type": "PATH_POINT",
+            "name": "Punkt 10"
+        },
+        {
+            "id": "PUNKT_11",
+            "floor_id": "FLOOR_0",
+            "x": 609,
+            "y": 828,
+            "type": "PATH_POINT",
+            "name": "Punkt 11"
+        },
+        {
+            "id": "PUNKT_12",
+            "floor_id": "FLOOR_0",
+            "x": 425,
+            "y": 828,
+            "type": "PATH_POINT",
+            "name": "Punkt 12"
+        },
+        {
+            "id": "PUNKT_13",
+            "floor_id": "FLOOR_0",
+            "x": 27,
+            "y": 828,
+            "type": "PATH_POINT",
+            "name": "Punkt 13"
+        },
+        {
+            "id": "STAIR_B_UP",
+            "floor_id": "FLOOR_1",
+            "x": 86,
+            "y": 436,
+            "type": "STAIRS",
+            "name": "Schody B (Góra)",
+            "qr_code": "QR_STAIR_B_U"
+        },
+        {
+            "id": "STAIR_A_UP",
+            "floor_id": "FLOOR_1",
+            "x": 586,
+            "y": 853,
+            "type": "STAIRS",
+            "name": "Schody A (Góra)",
+            "qr_code": "QR_STAIR_A_U"
+        },
+        {
+            "id": "SEKRETARIAT_1",
+            "floor_id": "FLOOR_1",
+            "x": 110,
+            "y": 363,
+            "type": "ROOM",
+            "name": "Sekretariat",
+            "qr_code": "QR_SEK_1"
+        },
+        {
+            "id": "DYREKTOR",
+            "floor_id": "FLOOR_1",
+            "x": 158,
+            "y": 363,
+            "type": "ROOM",
+            "name": "Wejście Dyrektor",
+            "qr_code": "QR_DIR"
+        },
+        {
+            "id": "WC_1",
+            "floor_id": "FLOOR_1",
+            "x": 158,
+            "y": 418,
+            "type": "WC",
+            "name": "WC",
+            "qr_code": "QR_WC_1"
+        },
+        {
+            "id": "POKOJ_NAUCZ_TOP",
+            "floor_id": "FLOOR_1",
+            "x": 212,
+            "y": 381,
+            "type": "ROOM",
+            "name": "Wejście Pokój Nauczycielski",
+            "qr_code": "QR_TEACHERS_TOP"
+        },
+        {
+            "id": "14",
+            "floor_id": "FLOOR_1",
+            "x": 241,
+            "y": 785,
+            "type": "ROOM",
+            "name": "Sala 14",
+            "qr_code": "QR_14"
+        },
+        {
+            "id": "13",
+            "floor_id": "FLOOR_1",
+            "x": 348,
+            "y": 785,
+            "type": "ROOM",
+            "name": "Sala 13",
+            "qr_code": "QR_13"
+        },
+        {
+            "id": "12",
+            "floor_id": "FLOOR_1",
+            "x": 441,
+            "y": 786,
+            "type": "ROOM",
+            "name": "Sala 12",
+            "qr_code": "QR_12"
+        },
+        {
+            "id": "K5",
+            "floor_id": "FLOOR_1",
+            "x": 539,
+            "y": 786,
+            "type": "ROOM",
+            "name": "K5",
+            "qr_code": "QR_K5"
+        },
+        {
+            "id": "11",
+            "floor_id": "FLOOR_1",
+            "x": 636,
+            "y": 787,
+            "type": "ROOM",
+            "name": "Sala 11",
+            "qr_code": "QR_11"
+        },
+        {
+            "id": "WC_1_TOP",
+            "floor_id": "FLOOR_1",
+            "x": 828,
+            "y": 381,
+            "type": "WC",
+            "name": "WC",
+            "qr_code": "QR_WC_1_TOP"
+        },
+        {
+            "id": "10",
+            "floor_id": "FLOOR_1",
+            "x": 692,
+            "y": 805,
+            "type": "ROOM",
+            "name": "Wejście Sala 10 (Aula)",
+            "qr_code": "QR_10"
+        },
+        {
+            "id": "B4",
+            "floor_id": "FLOOR_1",
+            "x": 442,
+            "y": 888,
+            "type": "ROOM",
+            "name": "Sala gimnastyczna (B4)",
+            "qr_code": "QR_B4"
+        },
+        {
+            "id": "WC_1_BOT",
+            "floor_id": "FLOOR_1",
+            "x": 468,
+            "y": 518,
+            "type": "WC",
+            "name": "Toalety",
+            "qr_code": "QR_WC_1_BOT"
+        },
+        {
+            "id": "B6",
+            "floor_id": "FLOOR_1",
+            "x": 413,
+            "y": 900,
+            "type": "ROOM",
+            "name": "Sala B6",
+            "qr_code": "QR_B6"
+        },
+        {
+            "id": "STAIR_1_SILOWNIA",
+            "floor_id": "FLOOR_1",
+            "x": 540,
+            "y": 590,
+            "type": "STAIRS",
+            "name": "Schody na strych (Siłownia)",
+            "qr_code": "QR_STAIR_SILOWNIA"
+        },
+        {
+            "id": "B5",
+            "floor_id": "FLOOR_1",
+            "x": 428,
+            "y": 914,
+            "type": "ROOM",
+            "name": "Sala B5",
+            "qr_code": "QR_B5"
+        },
+        {
+            "id": "B4_WC",
+            "floor_id": "FLOOR_1",
+            "x": 658,
+            "y": 545,
+            "type": "ROOM",
+            "name": "Sala B4 (duża)",
+            "qr_code": "QR_B4_BIG"
+        },
+        {
+            "id": "STAIR_1_MID",
+            "floor_id": "FLOOR_1",
+            "x": 801,
+            "y": 516,
+            "type": "STAIRS",
+            "name": "Schody Główne (środek)",
+            "qr_code": "QR_STAIR_1_MID"
+        },
+        {
+            "id": "HALL_1_LEFT",
+            "floor_id": "FLOOR_1",
+            "x": 86,
+            "y": 436,
+            "type": "CORRIDOR",
+            "name": "Korytarz Lewy"
+        },
+        {
+            "id": "HALL_1_MID",
+            "floor_id": "FLOOR_1",
+            "x": 722,
+            "y": 436,
+            "type": "CORRIDOR",
+            "name": "Korytarz Środkowy"
+        },
+        {
+            "id": "HALL_1_RIGHT",
+            "floor_id": "FLOOR_1",
+            "x": 848,
+            "y": 436,
+            "type": "CORRIDOR",
+            "name": "Korytarz Prawy"
+        },
+        {
+            "id": "GYM_2",
+            "floor_id": "FLOOR_0",
+            "x": 88,
+            "y": 823,
+            "type": "ROOM",
+            "name": "Sala gimnastyczna (Wejście 2)",
+            "qr_code": "QR_GYM_2"
+        },
+        {
+            "id": "HALL_1_TOP_LEFT",
+            "floor_id": "FLOOR_1",
+            "x": 241,
+            "y": 825,
+            "type": "CORRIDOR",
+            "name": "Korytarz Górny (Lewy)"
+        },
+        {
+            "id": "HALL_1_TOP_MID",
+            "floor_id": "FLOOR_1",
+            "x": 490,
+            "y": 826,
+            "type": "CORRIDOR",
+            "name": "Korytarz Górny (Środek)"
+        },
+        {
+            "id": "HALL_1_TOP_RIGHT",
+            "floor_id": "FLOOR_1",
+            "x": 692,
+            "y": 845,
+            "type": "CORRIDOR",
+            "name": "Korytarz Górny (Prawy)"
+        },
+        {
+            "id": "HALL_1_VERT_CONN",
+            "floor_id": "FLOOR_1",
+            "x": 722,
+            "y": 180,
+            "type": "CORRIDOR",
+            "name": "Łącznik"
+        },
+        {
+            "id": "HALL_1_TOP_B_ENTRY",
+            "floor_id": "FLOOR_1",
+            "x": 515,
+            "y": 180,
+            "type": "CORRIDOR",
+            "name": "Korytarz Górny (Wejście B)"
+        },
+        {
+            "id": "HALL_1_B_HUB",
+            "floor_id": "FLOOR_1",
+            "x": 468,
+            "y": 901,
+            "type": "CORRIDOR",
+            "name": "Korytarz B (Hub)"
+        },
+        {
+            "id": "HALL_1_SILOWNIA_ENTRY",
+            "floor_id": "FLOOR_1",
+            "x": 540,
+            "y": 436,
+            "type": "CORRIDOR",
+            "name": "Korytarz Główny (Siłownia)"
+        },
+        {
+            "id": "HALL_1_B4_BIG_ENTRY",
+            "floor_id": "FLOOR_1",
+            "x": 658,
+            "y": 436,
+            "type": "CORRIDOR",
+            "name": "Korytarz Główny (B4 Duża)"
+        },
+        {
+            "id": "TERRACE",
+            "floor_id": "FLOOR_1",
+            "x": 722,
+            "y": 100,
+            "type": "ROOM",
+            "name": "Taras",
+            "qr_code": "QR_TERRACE"
+        },
+        {
+            "id": "TERRACE_ENTRY",
+            "floor_id": "FLOOR_1",
+            "x": 722,
+            "y": 150,
+            "type": "CORRIDOR",
+            "name": "Wejście na taras"
+        },
+        {
+            "id": "PUNKT_1A",
+            "floor_id": "FLOOR_0",
+            "x": 660,
+            "y": 187,
+            "type": "PATH_POINT",
+            "name": "Punkt 1A"
+        },
+        {
+            "id": "PUNKT_1B",
+            "floor_id": "FLOOR_0",
+            "x": 900,
+            "y": 187,
+            "type": "PATH_POINT",
+            "name": "Punkt 1B"
+        },
+        {
+            "id": "PUNKT_4A",
+            "floor_id": "FLOOR_0",
+            "x": 720,
+            "y": 325,
+            "type": "PATH_POINT",
+            "name": "Punkt 4A"
+        },
+        {
+            "id": "PUNKT_4B",
+            "floor_id": "FLOOR_0",
+            "x": 890,
+            "y": 325,
+            "type": "PATH_POINT",
+            "name": "Punkt 4B"
+        },
+        {
+            "id": "PUNKT_4C",
+            "floor_id": "FLOOR_0",
+            "x": 805,
+            "y": 367,
+            "type": "PATH_POINT",
+            "name": "Punkt 4C"
+        },
+        {
+            "id": "PUNKT_4D",
+            "floor_id": "FLOOR_0",
+            "x": 805,
+            "y": 415,
+            "type": "PATH_POINT",
+            "name": "Punkt 4D"
+        },
+        {
+            "id": "PUNKT_6A",
+            "floor_id": "FLOOR_0",
+            "x": 750,
+            "y": 544,
+            "type": "PATH_POINT",
+            "name": "Punkt 6A"
+        },
+        {
+            "id": "PUNKT_11A",
+            "floor_id": "FLOOR_0",
+            "x": 506,
+            "y": 828,
+            "type": "PATH_POINT",
+            "name": "Punkt 11A"
+        },
+        {
+            "id": "PUNKT_11B",
+            "floor_id": "FLOOR_0",
+            "x": 580,
+            "y": 828,
+            "type": "PATH_POINT",
+            "name": "Punkt 11B"
+        },
+        {
+            "id": "PUNKT_12A",
+            "floor_id": "FLOOR_0",
+            "x": 493,
+            "y": 828,
+            "type": "PATH_POINT",
+            "name": "Punkt 12A"
+        },
+        {
+            "id": "PUNKT_12B",
+            "floor_id": "FLOOR_0",
+            "x": 319,
+            "y": 828,
+            "type": "PATH_POINT",
+            "name": "Punkt 12B"
+        },
+        {
+            "id": "PUNKT_12C",
+            "floor_id": "FLOOR_0",
+            "x": 440,
+            "y": 900,
+            "type": "PATH_POINT",
+            "name": "Punkt 12C"
+        },
+        {
+            "id": "PUNKT_12E",
+            "floor_id": "FLOOR_0",
+            "x": 170,
+            "y": 828,
+            "type": "PATH_POINT",
+            "name": "Punkt 12E"
+        }
+    ],
+    "edges": [
+        {
+            "from": "HALL_1_VERT_CONN",
+            "to": "TERRACE_ENTRY",
+            "weight": 30,
+            "type": "WALK"
+        },
+        {
+            "from": "TERRACE_ENTRY",
+            "to": "TERRACE",
+            "weight": 50,
+            "type": "WALK"
+        },
+        {
+            "from": "HALL_1_MID",
+            "to": "HALL_1_RIGHT",
+            "weight": 126,
+            "type": "WALK"
+        },
+        {
+            "from": "HALL_1_LEFT",
+            "to": "STAIR_B_UP",
+            "weight": 20,
+            "type": "WALK"
+        },
+        {
+            "from": "HALL_1_MID",
+            "to": "STAIR_A_UP",
+            "weight": 50,
+            "type": "WALK"
+        },
+        {
+            "from": "HALL_1_LEFT",
+            "to": "SEKRETARIAT_1",
+            "weight": 15,
+            "type": "WALK"
+        },
+        {
+            "from": "HALL_1_LEFT",
+            "to": "DYREKTOR",
+            "weight": 10,
+            "type": "WALK"
+        },
+        {
+            "from": "HALL_1_LEFT",
+            "to": "WC_1",
+            "weight": 10,
+            "type": "WALK"
+        },
+        {
+            "from": "HALL_1_LEFT",
+            "to": "POKOJ_NAUCZ_TOP",
+            "weight": 5,
+            "type": "WALK"
+        },
+        {
+            "from": "HALL_1_MID",
+            "to": "WC_1_TOP",
+            "weight": 27,
+            "type": "WALK"
+        },
+        {
+            "from": "HALL_1_MID",
+            "to": "WC_1_BOT",
+            "weight": 8,
+            "type": "WALK"
+        },
+        {
+            "from": "14",
+            "to": "HALL_1_TOP_LEFT",
+            "weight": 10,
+            "type": "WALK"
+        },
+        {
+            "from": "13",
+            "to": "HALL_1_TOP_LEFT",
+            "weight": 10,
+            "type": "WALK"
+        },
+        {
+            "from": "12",
+            "to": "HALL_1_TOP_MID",
+            "weight": 10,
+            "type": "WALK"
+        },
+        {
+            "from": "K5",
+            "to": "HALL_1_TOP_MID",
+            "weight": 10,
+            "type": "WALK"
+        },
+        {
+            "from": "11",
+            "to": "HALL_1_TOP_RIGHT",
+            "weight": 10,
+            "type": "WALK"
+        },
+        {
+            "from": "10",
+            "to": "HALL_1_TOP_RIGHT",
+            "weight": 10,
+            "type": "WALK"
+        },
+        {
+            "from": "HALL_1_TOP_MID",
+            "to": "HALL_1_VERT_CONN",
+            "weight": 15,
+            "type": "WALK"
+        },
+        {
+            "from": "HALL_1_VERT_CONN",
+            "to": "HALL_1_TOP_RIGHT",
+            "weight": 6,
+            "type": "WALK"
+        },
+        {
+            "from": "HALL_1_VERT_CONN",
+            "to": "HALL_1_MID",
+            "weight": 25,
+            "type": "WALK"
+        },
+        {
+            "from": "HALL_1_TOP_LEFT",
+            "to": "HALL_1_TOP_B_ENTRY",
+            "weight": 232,
+            "type": "WALK"
+        },
+        {
+            "from": "HALL_1_TOP_B_ENTRY",
+            "to": "HALL_1_TOP_MID",
+            "weight": 60,
+            "type": "WALK"
+        },
+        {
+            "from": "HALL_1_TOP_B_ENTRY",
+            "to": "HALL_1_B_HUB",
+            "weight": 70,
+            "type": "WALK"
+        },
+        {
+            "from": "HALL_1_B_HUB",
+            "to": "B4",
+            "weight": 9,
+            "type": "WALK"
+        },
+        {
+            "from": "HALL_1_B_HUB",
+            "to": "B5",
+            "weight": 26,
+            "type": "WALK"
+        },
+        {
+            "from": "HALL_1_B_HUB",
+            "to": "B6",
+            "weight": 31,
+            "type": "WALK"
+        },
+        {
+            "from": "HALL_1_LEFT",
+            "to": "HALL_1_SILOWNIA_ENTRY",
+            "weight": 454,
+            "type": "WALK"
+        },
+        {
+            "from": "HALL_1_SILOWNIA_ENTRY",
+            "to": "HALL_1_B4_BIG_ENTRY",
+            "weight": 118,
+            "type": "WALK"
+        },
+        {
+            "from": "HALL_1_B4_BIG_ENTRY",
+            "to": "HALL_1_MID",
+            "weight": 64,
+            "type": "WALK"
+        },
+        {
+            "from": "HALL_1_SILOWNIA_ENTRY",
+            "to": "STAIR_1_SILOWNIA",
+            "weight": 154,
+            "type": "WALK"
+        },
+        {
+            "from": "HALL_1_B4_BIG_ENTRY",
+            "to": "B4_WC",
+            "weight": 109,
+            "type": "WALK"
+        },
+        {
+            "from": "PUNKT_1",
+            "to": "PUNKT_1A",
+            "weight": 105,
+            "type": "WALK"
+        },
+        {
+            "from": "PUNKT_1",
+            "to": "PUNKT_1B",
+            "weight": 135,
+            "type": "WALK"
+        },
+        {
+            "from": "PUNKT_1",
+            "to": "PUNKT_2",
+            "weight": 35,
+            "type": "WALK"
+        },
+        {
+            "from": "PUNKT_2",
+            "to": "PUNKT_3",
+            "weight": 26,
+            "type": "WALK"
+        },
+        {
+            "from": "PUNKT_3",
+            "to": "PUNKT_4",
+            "weight": 106,
+            "type": "WALK"
+        },
+        {
+            "from": "PUNKT_4",
+            "to": "PUNKT_4A",
+            "weight": 85,
+            "type": "WALK"
+        },
+        {
+            "from": "PUNKT_4",
+            "to": "PUNKT_4B",
+            "weight": 85,
+            "type": "WALK"
+        },
+        {
+            "from": "PUNKT_4",
+            "to": "PUNKT_4C",
+            "weight": 42,
+            "type": "WALK"
+        },
+        {
+            "from": "PUNKT_4C",
+            "to": "PUNKT_4D",
+            "weight": 48,
+            "type": "WALK"
+        },
+        {
+            "from": "PUNKT_4D",
+            "to": "PUNKT_5",
+            "weight": 36,
+            "type": "WALK"
+        },
+        {
+            "from": "PUNKT_5",
+            "to": "PUNKT_6",
+            "weight": 93,
+            "type": "WALK"
+        },
+        {
+            "from": "PUNKT_6",
+            "to": "PUNKT_6A",
+            "weight": 55,
+            "type": "WALK"
+        },
+        {
+            "from": "PUNKT_6A",
+            "to": "PUNKT_7",
+            "weight": 105,
+            "type": "WALK"
+        },
+        {
+            "from": "PUNKT_7",
+            "to": "PUNKT_8",
+            "weight": 104,
+            "type": "WALK"
+        },
+        {
+            "from": "PUNKT_8",
+            "to": "PUNKT_9",
+            "weight": 75,
+            "type": "WALK"
+        },
+        {
+            "from": "PUNKT_9",
+            "to": "PUNKT_10",
+            "weight": 97,
+            "type": "WALK"
+        },
+        {
+            "from": "PUNKT_9",
+            "to": "PUNKT_11",
+            "weight": 141,
+            "type": "WALK"
+        },
+        {
+            "from": "PUNKT_11",
+            "to": "PUNKT_11A",
+            "weight": 103,
+            "type": "WALK"
+        },
+        {
+            "from": "PUNKT_11",
+            "to": "PUNKT_11B",
+            "weight": 29,
+            "type": "WALK"
+        },
+        {
+            "from": "PUNKT_11A",
+            "to": "PUNKT_12",
+            "weight": 81,
+            "type": "WALK"
+        },
+        {
+            "from": "PUNKT_12",
+            "to": "PUNKT_12A",
+            "weight": 68,
+            "type": "WALK"
+        },
+        {
+            "from": "PUNKT_12",
+            "to": "PUNKT_12B",
+            "weight": 106,
+            "type": "WALK"
+        },
+        {
+            "from": "PUNKT_12A",
+            "to": "PUNKT_12C",
+            "weight": 89,
+            "type": "WALK"
+        },
+        {
+            "from": "PUNKT_12B",
+            "to": "PUNKT_12C",
+            "weight": 141,
+            "type": "WALK"
+        },
+        {
+            "from": "PUNKT_12B",
+            "to": "PUNKT_12E",
+            "weight": 149,
+            "type": "WALK"
+        },
+        {
+            "from": "PUNKT_12E",
+            "to": "PUNKT_13",
+            "weight": 143,
+            "type": "WALK"
+        },
+        {
+            "from": "m1",
+            "to": "PUNKT_1A",
+            "weight": 35,
+            "type": "WALK"
+        },
+        {
+            "from": "m2",
+            "to": "PUNKT_1A",
+            "weight": 37,
+            "type": "WALK"
+        },
+        {
+            "from": "m3",
+            "to": "PUNKT_1",
+            "weight": 34,
+            "type": "WALK"
+        },
+        {
+            "from": "m4",
+            "to": "PUNKT_1B",
+            "weight": 66,
+            "type": "WALK"
+        },
+        {
+            "from": "KUCHNIA",
+            "to": "PUNKT_1B",
+            "weight": 148,
+            "type": "WALK"
+        },
+        {
+            "from": "DEG",
+            "to": "PUNKT_1B",
+            "weight": 55,
+            "type": "WALK"
+        },
+        {
+            "from": "7",
+            "to": "PUNKT_4A",
+            "weight": 11,
+            "type": "WALK"
+        },
+        {
+            "from": "8",
+            "to": "PUNKT_4B",
+            "weight": 34,
+            "type": "WALK"
+        },
+        {
+            "from": "9",
+            "to": "PUNKT_4B",
+            "weight": 33,
+            "type": "WALK"
+        },
+        {
+            "from": "K4",
+            "to": "PUNKT_4C",
+            "weight": 11,
+            "type": "WALK"
+        },
+        {
+            "from": "K3",
+            "to": "PUNKT_4D",
+            "weight": 11,
+            "type": "WALK"
+        },
+        {
+            "from": "SZATNIA_1",
+            "to": "PUNKT_4D",
+            "weight": 86,
+            "type": "WALK"
+        },
+        {
+            "from": "K1",
+            "to": "PUNKT_7",
+            "weight": 28,
+            "type": "WALK"
+        },
+        {
+            "from": "K2",
+            "to": "PUNKT_7",
+            "weight": 12,
+            "type": "WALK"
+        },
+        {
+            "from": "6",
+            "to": "PUNKT_8",
+            "weight": 70,
+            "type": "WALK"
+        },
+        {
+            "from": "5",
+            "to": "PUNKT_10",
+            "weight": 55,
+            "type": "WALK"
+        },
+        {
+            "from": "CENTRUM",
+            "to": "PUNKT_10",
+            "weight": 56,
+            "type": "WALK"
+        },
+        {
+            "from": "BIBLIOTEKA",
+            "to": "PUNKT_10",
+            "weight": 131,
+            "type": "WALK"
+        },
+        {
+            "from": "PEDAGOG",
+            "to": "PUNKT_10",
+            "weight": 150,
+            "type": "WALK"
+        },
+        {
+            "from": "4b",
+            "to": "PUNKT_11",
+            "weight": 26,
+            "type": "WALK"
+        },
+        {
+            "from": "4a",
+            "to": "PUNKT_11",
+            "weight": 31,
+            "type": "WALK"
+        },
+        {
+            "from": "3",
+            "to": "PUNKT_11A",
+            "weight": 30,
+            "type": "WALK"
+        },
+        {
+            "from": "2",
+            "to": "PUNKT_12",
+            "weight": 19,
+            "type": "WALK"
+        },
+        {
+            "from": "1",
+            "to": "PUNKT_12B",
+            "weight": 25,
+            "type": "WALK"
+        },
+        {
+            "from": "B1",
+            "to": "PUNKT_12A",
+            "weight": 86,
+            "type": "WALK"
+        },
+        {
+            "from": "B2",
+            "to": "PUNKT_12C",
+            "weight": 45,
+            "type": "WALK"
+        },
+        {
+            "from": "B3",
+            "to": "PUNKT_12C",
+            "weight": 72,
+            "type": "WALK"
+        },
+        {
+            "from": "GYM",
+            "to": "PUNKT_12E",
+            "weight": 154,
+            "type": "WALK"
+        },
+        {
+            "from": "PSYCHOLOG",
+            "to": "PUNKT_13",
+            "weight": 53,
+            "type": "WALK"
+        }
+    ]
+}
