@@ -14,7 +14,7 @@ class _SchoolPlanScreenState extends State<SchoolPlanScreen> {
   String _currentFloorId = 'FLOOR_0';
 
   final Map<String, String> _floorSvgs = {
-    'FLOOR_0': 'assets/maps/floor_0.png',
+    'FLOOR_0': 'assets/maps/floor_0a.png',
     'FLOOR_1': 'assets/maps/floor_1.png',
   };
 

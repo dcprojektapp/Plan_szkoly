@@ -34,5 +34,5 @@ function extractHubs(filePath) {
     return hubs;
 }
 
-const hubs0 = extractHubs('assets/maps/floor_0.svg');
+const hubs0 = extractHubs('assets/maps/dół.svg');
 console.log(JSON.stringify(hubs0, null, 2));
